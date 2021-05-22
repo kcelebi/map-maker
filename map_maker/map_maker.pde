@@ -1,6 +1,8 @@
-int im_x = 4500;
-int im_y = 2234;
-float im_scal = 0.3;
+int im_x = 4500; //DIMENSIONS OF YOUR MAP
+int im_y = 2234; //DIMENSIONS OF YOUR MAP
+
+
+float im_scal = 0.3;  //IF YOU WANT TO SCALE IT DOWN BY A FACTOR, CAN JUST LEAVE AT 1
 int mX=-1;
 int mY=-1;
 PImage img;
@@ -19,7 +21,7 @@ void settings(){
   size(im_x, im_y);
 }
 void setup(){
-  img = loadImage("../../data/map.png");
+  img = loadImage("../map.png"); //DEFAULT IMAGE NAME, YOU CAN CHANGE IT
 }
 
 void draw(){
@@ -150,7 +152,7 @@ void keyPressed(){
 }
 
 void writetoFile(){
-  String file = "../../data/custom_loc.txt";
+  String file = "../custom_loc.txt"; //DEFAULT RESULT LOCATION, YOU CAN CHANGE IT
   PrintWriter output;
   output = createWriter(file);
   
