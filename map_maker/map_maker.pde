@@ -39,7 +39,9 @@ void draw(){
   }
   
   fill(255);
-  rect(0,0,10,10);
+  rect(0,0,100,50); //exit rect
+  fill(0);
+  text("EXIT & SAVE", 10,25);
   
   if(makeTextbox){
     //text field
@@ -92,7 +94,7 @@ void mousePressed(){
   }
   else{
     //exit
-    if (mouseX > 0 && mouseX < 10 && mouseY > 0 && mouseY < 10){
+    if (mouseX > 0 && mouseX < 100 && mouseY > 0 && mouseY < 50){
        writetoFile();
     }
     else{
