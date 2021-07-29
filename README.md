@@ -3,9 +3,9 @@ Tool for generating coordinates for maps
 
 ## To Do
 
-- [] Create p5 implementation
-- [] Options for diff map images
-- [] Apply mapping funcs, dowloads CSV of coordinates 
+- [ ] Create p5 implementation
+- [ ] Options for diff map images
+- [ ] Apply mapping funcs, dowloads CSV of coordinates 
 
 # How to Use
 
